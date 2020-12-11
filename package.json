@@ -1,8 +1,8 @@
 {
   "name": "php-debug",
   "displayName": "PHP Debug",
-  "version": "0.0.0-development",
-  "publisher": "felixfbecker",
+  "version": "1.0.0",
+  "publisher": "xpertbot",
   "license": "MIT",
   "description": "Debug support for PHP with XDebug",
   "keywords": [
@@ -28,10 +28,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/felixfbecker/vscode-php-debug.git"
+    "url": "https://github.com/xpertbot/vscode-php-debug.git"
   },
   "bugs": {
-    "url": "https://github.com/felixfbecker/vscode-php-debug/issues"
+    "url": "https://github.com/xpertbot/vscode-php-debug/issues"
   },
   "dependencies": {
     "file-url": "^2.0.0",
@@ -112,15 +112,15 @@
     ]
   },
   "contributes": {
+    "breakpoints" : [
+      {
+        "language": "php"
+      }
+    ],
     "debuggers": [
       {
         "type": "php",
         "label": "PHP",
-        "enableBreakpointsFor": {
-          "languageIds": [
-            "php"
-          ]
-        },
         "program": "./out/phpDebug.js",
         "runtime": "node",
         "configurationAttributes": {
