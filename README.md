@@ -1,5 +1,7 @@
 ## NOTE: This is a temporary patch of [PHP-Debug](https://github.com/felixfbecker/vscode-php-debug) to work with VSCode V1.52.0 Once original PHP-Debug by @felixfbecker is fixed, this extension will be unpublished.
 
+### A new solution that doesn't require installing a new extension is on [Github](https://github.com/felixfbecker/vscode-php-debug/issues/424#issuecomment-743458417). This is the recommended way to fix this issue. This extension will be unpublished soon.
+
 # PHP Debug Adapter for Visual Studio Code
 
 [![vs marketplace](https://img.shields.io/vscode-marketplace/v/felixfbecker.php-debug.svg?label=vs%20marketplace)](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) [![downloads](https://img.shields.io/vscode-marketplace/d/felixfbecker.php-debug.svg)](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) [![rating](https://img.shields.io/vscode-marketplace/r/felixfbecker.php-debug.svg)](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) [![windows build](https://img.shields.io/appveyor/ci/felixfbecker/vscode-php-debug/master.svg?label=windows+build)](https://ci.appveyor.com/project/felixfbecker/vscode-php-debug)
